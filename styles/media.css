@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+  main {
+    width: 614.5px;
+  }
+
+  #back-img {
+    background-image: url(../images/back2.gif);
+    display: inline-block;
+    border-radius: 10px 0px 0px 10px;
+    width: 145px;
+    height: 355px;
+    margin-bottom: -35px;
+  }
+
+  h1 {
+    padding-top: 20px;
+  }
+
+  p {
+    margin: 15px 0px 15px 0px;
+  }
+
+  .eap {
+    width: 360px;
+    height: 30px;
+  }
+
+  body {
+    background-image: linear-gradient(to bottom, #3c1053, #ad5389);
+  }
+
+  #move {
+    width: 430px;
+    margin-left: 15px;
+    display: inline-block;
+    margin-top: -20px;
+  }
+
+  #forgot {
+    margin-bottom: 0px;
+  }
+
+  .subuttons {
+    width: 400px;
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 922px) {
+  main {
+    width: 950px;
+  }
+
+  p {
+    margin: 15px 0px 15px 0px;
+  }
+
+  .eap {
+    width: 360px;
+  }
+
+  #back-img {
+    display: none;
+  }
+  
+  h1 {
+    padding-top: 20px;
+  }
+
+  body {
+    background-image: linear-gradient(to bottom, #654ea3, #eaafc8);
+  }
+
+  #back-img2 {
+    background-image: url(../images/bigback.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 480.5px;
+    height: 360px;
+    display: inline-block;
+    border-radius: 0px 10px 10px 0px;
+    margin-bottom: -35px;
+  }
+
+  .subuttons {
+    width: 400px;
+    font-weight: bold;
+  }
+}
